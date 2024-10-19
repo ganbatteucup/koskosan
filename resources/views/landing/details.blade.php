@@ -50,7 +50,7 @@
             <div class="row align-items-center mb-30">
                 <div class="col-lg-6">
                     <h1 class="jumbo-header">
-                        Coral PIK Seven
+                        {{ $slug }}
                     </h1>
                     <p class="paragraph">
                         Where dreams live begin without worried ipsum.

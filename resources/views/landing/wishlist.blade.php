@@ -76,13 +76,7 @@
                 </div>
             </div>
             <div class="row">
-                @component('components.house_card')
-                    @slot('cover', '')
-                    @slot('cover', '')
-                    @slot('cover', '')
-
-                    
-                endcomponent
+                @include('components.house_card')
             </div>
         </div>
     </section>

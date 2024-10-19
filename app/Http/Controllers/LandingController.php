@@ -15,10 +15,11 @@ class LandingController extends Controller
         return view('landing.index');
     }
 
-    public function details()
+    public function details($slug)
     {
         //
-        return view('landing.details');
+        // dd($slug);
+        return view('landing.details', compact('slug'));
 
     }
 

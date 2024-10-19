@@ -13,5 +13,5 @@ use App\Http\Controllers\LandingController;
 //halaman tesimonial, 
 Route::get('testimonials', [LandingController::class, 'testimonials'])->name('landing.
 testimonials');
-Route::get('details{id}/', [LandingController::class, 'details'])->name('landing.details');
+Route::get('details{slugl}/', [LandingController::class, 'details'])->name('landing.details');
 Route::resource('/', LandingController::class);
