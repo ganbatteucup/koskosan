@@ -68,7 +68,7 @@
                 <div class="col-lg-12">
                     <img src="{{ asset('images/ic_best.svg')}}" height="42" alt="" class="mb-16">
                     <h3 class="big-header">
-                        Best of The Best
+                        My Wishlist
                     </h3>
                     <p class="paragraph">
                         Dolor space comfortable moments
@@ -76,8 +76,13 @@
                 </div>
             </div>
             <div class="row">
-                @include('components.house_card')
-            </div>
+            @component('components.house_card')
+                    @slot('cover', 'images/house2.png')
+                    @slot('title', 'Brown House')
+                    @slot('price', '888')
+                    @slot('location', 'Bogor')                    
+                @endcomponent
+            </div>            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

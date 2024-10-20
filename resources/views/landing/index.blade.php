@@ -76,13 +76,15 @@
                 </div>
             </div>
             <div class="row">
-                @component('components.house_card')
-                    @slot('cover', '')
-                    @slot('cover', '')
-                    @slot('cover', '')
-
+                <!-- mengambil data dari table best of best -->
+                 @component('components.house_card')
+                    @slot('cover', 'images/house4.png')
+                    @slot('title', 'Saung Sunda')
+                    @slot('price', '783')
+                    @slot('location', 'Lembang')
+                    @slot('review', '4,5')                    
                     
-                endcomponent
+                @endcomponent
             </div>
         </div>
     </section>

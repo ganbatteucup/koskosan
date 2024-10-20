@@ -22,10 +22,17 @@ class LandingController extends Controller
         return view('landing.details', compact('slug'));
 
     }
+    public function wishlist()
+    {
+        //
+        return view('landing.wishlist');
 
+    }
     public function categories()
     {
         //
+        return view('landing.categories');
+
     }
 
     public function testimonials()
