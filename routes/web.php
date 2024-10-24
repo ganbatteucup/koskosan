@@ -13,6 +13,6 @@ use App\Http\Controllers\LandingController;
 //halaman tesimonial, 
 Route::get('testimonials', [LandingController::class, 'testimonials'])->name('landing.
 testimonials');
-Route::get('wishlist', [LandingController::class, 'testimonials'])->name('landing.wishlist');
+Route::get('wishlist', [LandingController::class, 'wishlist'])->name('landing.wishlist');
 Route::get('details{slugl}/', [LandingController::class, 'details'])->name('landing.details');
 Route::resource('/', LandingController::class);
