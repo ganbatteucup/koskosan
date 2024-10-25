@@ -1,4 +1,4 @@
-@extends('layouts.front')
+@extends('layoutsph.front')
 @section('title','My Wishlisit')
 @section('content')
 <!-- di isi dengan konten dari route/page tersebut -->
@@ -9,7 +9,7 @@
                 <div class="col-lg-6">
                     <h1 class="jumbo-header mb-30">
                         Cari Kos Kosan<br>
-                        Nyaman & Murmer
+                        Nyaman & Murah Meriah
                     </h1>
                     <p class="paragraph mb-30">
                         Lorem house ipsum could be a reall good home<br>
