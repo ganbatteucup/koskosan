@@ -12,8 +12,8 @@
                         Nyaman & Murah Meriah
                     </h1>
                     <p class="paragraph mb-30">
-                        Lorem house ipsum could be a reall good home<br>
-                        without thinking si amet dolor safety around.
+                        dineedkoss<br>
+                        siap menamani langkah indahmu.
                     </p>
                     <p class="mb-50"><a href="#" class="btn btn-primary">Explore Houses</a></p>
                     <div class="row stats text-center">
