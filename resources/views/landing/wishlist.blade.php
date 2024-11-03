@@ -8,11 +8,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="jumbo-header mb-30">
-                        Cari Kos Kosan<br>
+                        Cari Kos-Kosan<br>
                         Nyaman & Murah Meriah
                     </h1>
                     <p class="paragraph mb-30">
-                        dineedkoss<br>
+                        dineedkoss aja<br>
                         siap menamani langkah indahmu.
                     </p>
                     <p class="mb-50"><a href="#" class="btn btn-primary">Explore Houses</a></p>
